@@ -1,0 +1,142 @@
+.body {
+  background-color: #ccc;
+  padding-bottom: 30px;
+}
+
+.app-wrapper {
+  max-width: 600px;
+  margin: 0 auto 100px auto;
+}
+h1 {
+  text-align: center;
+  padding: 30px;
+}
+.mandatory {
+  color: red;
+}
+.input-wrapper {
+  padding: 30px;
+  display: flex;
+}
+
+.input-wrapper label {
+  width: 40%;
+  font-size: 20px;
+
+  height: 40px;
+  font-size: 24px;
+  padding-left: 10px;
+}
+.input-wrapper input {
+  width: 50%;
+  height: 40px;
+  border: 1px solid #eee;
+  font-size: 24px;
+  padding-left: 10px;
+}
+.select-wrapper {
+  padding: 30px;
+  display: flex;
+}
+.select-wrapper label {
+  width: 40%;
+  height: 40px;
+  font-size: 24px;
+  padding-left: 10px;
+}
+.select-wrapper select {
+  width: 50%;
+  height: 40px;
+  border: 1px solid #eee;
+  font-size: 24px;
+  padding-left: 10px;
+}
+.radio-wrapper {
+  padding: 30px;
+  display: flex;
+}
+.radio-wrapper label {
+  width: 40%;
+  height: 40px;
+  font-size: 24px;
+  padding-left: 5px;
+}
+.radio-wrapper input {
+  padding: 10px 10px;
+}
+.ref-radio {
+  padding-right: 10px;
+}
+.checkBox-wrapper {
+  padding: 30px;
+  display: flex;
+  font-size: 24px;
+}
+.checkBox-wrapper input {
+  width: 40%;
+  height: 20px;
+  border: 1px solid #eee;
+  font-size: 24px;
+  padding-left: 10px;
+}
+.text-wrapper {
+  padding: 30px;
+  display: flex;
+}
+.text-wrapper label {
+  width: 40%;
+  height: 40px;
+  font-size: 24px;
+  padding-left: 10px;
+}
+.text-wrapper textarea {
+  width: 60%;
+  height: 100px;
+  border: 1px solid #eee;
+  font-size: 24px;
+  padding-left: 10px;
+}
+
+.btn-wrapper {
+  text-align: center;
+}
+.btn-wrapper button {
+  width: 25%;
+  height: 50px;
+  font-size: 24px;
+  padding: 10px;
+}
+.display-customer-details {
+  font-style: normal;
+  font-weight: bold;
+}
+.display-customer-details {
+  text-align: justify;
+}
+.row {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  max-width: 500px;
+  margin: 0 auto;
+}
+.row:nth-child(odd) {
+  background-color: #eee;
+}
+.row:nth-child(even) {
+  background-color: #dfdcdc;
+}
+.key-container {
+  flex: 2;
+  padding: 10px;
+}
+.value-container {
+  flex: 3;
+  padding: 10px;
+}
+.addressBottom {
+  font-family: Merriweather;
+  font-size: 11px;
+  color: #888888;
+  font-style: normal;
+  font-weight: 400;
+}
